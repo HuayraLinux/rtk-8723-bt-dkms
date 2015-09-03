@@ -1,10 +1,9 @@
 PACKAGE_VERSION="#MODULE_VERSION#"
 PACKAGE_NAME="rtk-8723-bt-dkms"
-CLEAN="make clean"
 MAKE="echo $PWD; make"
 
-BUILT_MODULE_NAME[0]="8723b"
-BUILT_MODULE_LOCATION[0]="./"
+BUILT_MODULE_NAME[0]="rtk_btusb"
+BUILT_MODULE_LOCATION[0]="./bluetooth_usb_driver/"
 DEST_MODULE_LOCATION[0]="/updates/dkms/rtk8723bt/"
 
 AUTOINSTALL="yes"
