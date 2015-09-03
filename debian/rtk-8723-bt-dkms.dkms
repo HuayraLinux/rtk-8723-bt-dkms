@@ -1,0 +1,10 @@
+PACKAGE_VERSION="#MODULE_VERSION#"
+PACKAGE_NAME="rtk-8723-bt-dkms"
+CLEAN="make clean"
+MAKE="echo $PWD; make"
+
+BUILT_MODULE_NAME[0]="8723b"
+BUILT_MODULE_LOCATION[0]="./"
+DEST_MODULE_LOCATION[0]="/updates/dkms/rtk8723bt/"
+
+AUTOINSTALL="yes"

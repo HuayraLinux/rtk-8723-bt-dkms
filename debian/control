@@ -1,0 +1,18 @@
+Source: rtk-8723-bt-dkms
+Section: kernel
+Priority: optional
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>= 8.0.0), dkms
+Standards-Version: 3.9.5
+
+Package: rtk-8723-bt-dkms
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, dkms, 
+ linux-headers-686-pae | linux-headers-amd64
+Recommends: rtl-8723-firmware
+Conflicts: rtl-8723-dkms
+Replaces: rtl-8723-dkms 
+Description: Realtek 8723B (bluetooth) kernel module 
+ This is the driver for the Realtek 8723B bluetooth adapter.
+ This devices are shipped in MarblePoint platform
+
