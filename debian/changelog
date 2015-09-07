@@ -1,3 +1,9 @@
+rtk-8723-bt-dkms (1.1) unstable; urgency=medium
+
+  * quitando traces de info del modulo de bt
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 07 Sep 2015 16:39:08 -0300
+
 rtk-8723-bt-dkms (1.0) unstable; urgency=medium
 
   * Initial release. 

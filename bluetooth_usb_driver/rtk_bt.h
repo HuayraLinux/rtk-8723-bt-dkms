@@ -40,7 +40,7 @@
 
 #define BTCOEX
 
-#if 1
+#if 0
 #define RTKBT_DBG(fmt, arg...) printk(KERN_INFO "rtk_btusb: " fmt "\n" , ## arg)
 #else
 #define RTKBT_DBG(fmt, arg...)
